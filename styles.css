@@ -51,6 +51,18 @@ header p {
     object-fit: cover;
     border-radius: 8px;
 }
+.photo-grid2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.photo-grid2 img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
 
 /* Sección de mensaje */
 .message {
@@ -81,3 +93,4 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
